@@ -10,3 +10,7 @@ Route::get('/abc', function () {
     return "test route";
 });
 
+Route::get('/test1', function () {
+    return "test routeX from Rado";
+});
+
